@@ -1,0 +1,157 @@
+/* General body styling with a vibrant touch */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* A friendly and readable font */
+    line-height: 1.7;
+    background-color: #f7f2e7;
+    /* A warm, light beige */
+    color: #555;
+    /* Slightly lighter text color */
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style the main header with a bold, colorful gradient */
+#main-header {
+    background: linear-gradient(135deg, #ff6b6b, #fdd400);
+    /* Red to yellow gradient */
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+#main-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    /* Add a little spacing for emphasis */
+}
+
+/* Style the navigation bar with a distinct background */
+#main-nav {
+    background-color: #a7d1eb;
+    /* A soft blue */
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#main-nav a {
+    color: #fff;
+    /* White link color on the blue background */
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    /* A brighter blue for the links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0 10px;
+    /* Add some spacing between links */
+}
+
+#main-nav a:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    color: #f0f8ff;
+    /* Light text on hover */
+}
+
+/* Style the sections with a lighter background and colorful accents */
+.section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+    color: #2c3e50;
+    /* A dark blue-gray */
+    border-bottom: 3px solid #2ecc71;
+    /* A vibrant green underline */
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+.section p {
+    line-height: 1.9;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.section em {
+    font-style: italic;
+    color: #7f8c8d;
+    /* A softer gray */
+}
+
+/* Style the unordered list with colorful bullets */
+.section ul {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding-left: 0;
+}
+
+.section li {
+    margin-bottom: 15px;
+    color: #555;
+    padding-left: 25px;
+    position: relative;
+}
+
+.section li::before {
+    content: "\2022";
+    /* Add a custom bullet (filled circle) */
+    color: #f39c12;
+    /* A bright orange for the bullets */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+.section strong {
+    color: #e67e22;
+    /* A stronger orange for emphasized text */
+    font-weight: bold;
+}
+
+/* Style the image with a more prominent shadow */
+.section img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 5px solid #f9e79f;
+    /* A light yellow border */
+}
+
+/* Style the footer with a contrasting background */
+footer {
+    background-color: #34495e;
+    /* A dark blue */
+    color: #ecf0f1;
+    /* Very light gray text */
+    text-align: center;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+    /* Shadow on top */
+}
